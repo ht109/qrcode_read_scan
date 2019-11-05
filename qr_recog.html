@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<HTML>
+	<HEAD>
+		<meta charset="utf-8">
+		<title>QRコードスキャンテスト</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<!--<script type="text/javascript" src="./../common/js/jquery-3.3.1.min.js"></script>-->
+		<script type="text/javascript" src="./../common/js/qr/jquery.qrcode.js"></script>
+		<script type="text/javascript" src="./../common/js/qr/qrcode.js"></script>
+		<!--<script type="text/javascript" src="./../common/js/qr/qrcode_test.js"></script>-->
+		<script>
+			$('#qrcode').qrcode(location.href);
+		</script>
+	</HEAD>
+	<BODY>
+		<div id="qrcode">
+			<canvas width="256" height="256"></canvas>
+		</div>
+	</BODY>
+</HTML>
